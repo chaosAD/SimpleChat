@@ -16,6 +16,7 @@ public class Publisher implements Publishable<ChatData> {
     // ArrayList of observers/subcribers. hello
 
 
+
     @Override
     public void joinChannel(String channelName, Observer<ChatData> observer) {
         // Handle channel join request by the observer/subcriber.
@@ -29,6 +30,9 @@ public class Publisher implements Publishable<ChatData> {
         //      Otherwise do nothing.
         //   5) Update all observers about their status. E.g., who is already
         //      in the channel or who has just joined the channel.
+
+        add some code...
+
     }
 
     @Override
@@ -43,6 +47,7 @@ public class Publisher implements Publishable<ChatData> {
         //      remove the <key, value> pairs from the collection.
         //   4) Announce to all the other observers/subcribers that the
         //      observers has left the channel.
+		//	12345
     }
 
     @Override
